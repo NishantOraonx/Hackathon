@@ -1,0 +1,28 @@
+[
+  {
+    "ts": "2026-11-24T14:00:00",
+    "type": "deployment",
+    "service": "payment-service",
+    "version": "v2.14.0",
+    "prev_version": "v2.13.2",
+    "author": "dev-ravi",
+    "commit": "a41c9e7",
+    "change": "config: db.pool.max_size 50 -> 5 (cost tuning)"
+  },
+  {
+    "ts": "2026-11-24T13:35:00",
+    "type": "deployment",
+    "service": "user-service",
+    "version": "v1.8.1",
+    "prev_version": "v1.8.0",
+    "author": "dev-meera",
+    "commit": "7be21d0",
+    "change": "fix: avatar cache TTL"
+  },
+  {
+    "ts": "2026-11-24T13:42:00",
+    "type": "infra",
+    "service": "inventory-service",
+    "change": "autoscale 3 -> 4 replicas"
+  }
+]
