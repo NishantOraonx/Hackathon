@@ -1,0 +1,8 @@
+.venv/
+.venv*/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+incidents.db
+sample_logs.log
+sample_events.json
